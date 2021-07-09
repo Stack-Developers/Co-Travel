@@ -1,0 +1,51 @@
+/*----- Jehad & Qais --------------- The Header --------------------*/
+
+.header {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all .3s ease;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, .1);
+    z-index: 100;
+}
+
+header.hide {
+    top: -153px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.navbar ul {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: -2%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Overpass', sans-serif;
+    color: black;
+    font-weight: bolder;
+    margin-left: 240px;
+}
