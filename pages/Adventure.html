@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co-Travel</title>
+</head>
+<body>
+    <header>
+        <h1>Adventure Tour</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Adventure.html">Adventure Tour</a></li>
+                <li><a href="Relaxation.html">Relaxation Tour</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="https://via.placeholder.com/300x400" alt="placeholder" >
+            <img src="https://via.placeholder.com/300x400" alt="placeholder" >
+            <img src="https://via.placeholder.com/300x400" alt="placeholder" >
+        </div>
+        <div id="form">
+            <form id="UserInput">
+                <fieldset>
+                    <legend>Tour Request Form</legend>
+                        <br>
+                    <label for="nameField">Full Name: </label>
+                    <input type="text" id="nameField">
+                        <br>
+                        <br>
+                    <label for="emailField">E-mail: </label>
+                    <input type="text" id="emailField">
+                        <br>
+                        <br>
+                    <label for="phoneField">Phone Number: </label>
+                    <input type="tel" id="phoneField" placeholder="123-45-678">
+                        <br>
+                        <br>
+                    <label for="package">Choose Your Desired Package: </label>
+                    <select name="package" id="package">
+                        <option value="3 Days & 2 Nights">3 Days & 2 Nights</option>
+                        <option value="5 Days & 4 Nights">5 Days & 4 Nights</option>
+                        <option value="7 Days & 6 Nights">7 Days & 6 Nights</option>
+                    </select>
+                        <br>
+                        <br>
+                    <label for="touristField">Number of Tourists: </label>
+                    <input type="number" id="touristField">
+                        <br>
+                        <br>
+                    <label for="dateField">Tour Date: </label>
+                    <input type="date" id="dateField">
+                        <br>
+                        <br>
+                    <label for="vaccine">Are You Vaccinated Against Covid-19 Or Not? </label>
+                    <select name="vaccine" id="vaccine">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                        <br>
+                        <br>
+                    <button type="submit">Submit </button>
+
+                </fieldset>
+
+            </form>
+        </div>
+        <div id="ticket">
+
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Co-Travel
+    </footer>
+    <script src="../Adventure.js"></script>
+</body>
+</html>
