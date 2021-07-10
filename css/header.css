@@ -1,30 +1,21 @@
 /*----- Jehad & Qais --------------- The Header --------------------*/
 
-.header {
-    position: fixed;
-    height: 80px;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    transition: all .3s ease;
-    box-shadow: 0 1px 25px rgba(0, 0, 0, .1);
-    z-index: 100;
-}
-
 header.hide {
-    top: -153px;
+    top: -100px;
 }
 
 .logo {
     position: absolute;
-    top: 30px;
+    top: 1 0px;
     left: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .navbar {
     position: absolute;
     top: 30px;
-    left: 100px;
+    left: 120px;
 }
 
 .navbar ul {
@@ -43,9 +34,9 @@ header.hide {
 
 .navbar ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 27px;
     font-family: 'Overpass', sans-serif;
     color: black;
-    font-weight: bolder;
-    margin-left: 240px;
+    font-weight: 900;
+    margin-left: 170px;
 }
