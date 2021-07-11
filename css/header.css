@@ -1,13 +1,22 @@
 /*----- Jehad & Qais --------------- The Header --------------------*/
 
-header.hide {
-    top: -100px;
+#header {
+    position: fixed;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all .7s ease;
+}
+
+#header.hide {
+    top: -150px;
 }
 
 .logo {
     position: absolute;
-    top: 1 0px;
-    left: 10px;
+    top: 20px;
+    left: 25px;
     width: 100px;
     height: 100px;
 }
@@ -15,7 +24,7 @@ header.hide {
 .navbar {
     position: absolute;
     top: 30px;
-    left: 120px;
+    left: 140px;
 }
 
 .navbar ul {
