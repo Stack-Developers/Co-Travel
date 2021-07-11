@@ -1,12 +1,11 @@
 #CvContainer {
     position: absolute;
     display: block;
-    width: 840px;
-    left: 480px;
-    top: 20px;
-    background-color: rgba(92, 112, 156, 0.63);
-    padding: 25px;
-    border-radius: 15px;
+    width: 100%;
+    left: 0px;
+    top: 900px;
+    background-color: rgb(252, 251, 217);
+    padding-bottom: 150px;
 }
 
 #jehad,
@@ -19,10 +18,7 @@
     width: 380px;
     height: 200px;
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.349);
-    border-radius: 15px;
+    margin: 90px 0px 20px 150px;
 }
 
 #jehadPhoto,
@@ -32,7 +28,10 @@
 #qaisPhoto,
 #samPhoto {
     position: absolute;
-    left: 60px;
+    left: 100px;
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
 }
 
 #jehadInfo li,
@@ -47,19 +46,14 @@
     font-weight: bolder;
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
-    padding-top: 5px;
-    padding-left: 50px;
     text-decoration: none;
     list-style: none;
 }
 
 .flip-vertical-left:hover {
-    -webkit-animation: flip-vertical-left 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: flip-vertical-left 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    -webkit-transform: translateZ(-1px) rotateY(180deg);
+    -webkit-animation: flip-vertical-left 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: flip-vertical-left 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-transform: translateZ(0px) rotateY(180deg);
 }
 
 
