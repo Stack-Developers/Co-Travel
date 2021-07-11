@@ -16,7 +16,7 @@ function Tour(name, email, phone, packages, number, date, vaccine){
 
 }
 
-// console.log(Tour.length);
+
 
 const UserInput = document.getElementById('UserInput');
 UserInput.addEventListener('submit', handleSubmit);
@@ -61,9 +61,9 @@ function loadData(){
 
 
     // Tour.prototype.adventure = function(){
-//     let package1 = "3 Days & 2 Nights";
-//     let package2 = "5 Days & 4 Nights";
-//     let package3 = "7 Days & 6 Nights";
+//     let package1 = ("3 Days & 2 Nights");
+//     let package2 = ("5 Days & 4 Nights");
+//     let package3 = ("7 Days & 6 Nights");
 //         if (this.packages === package1) {
 //             return Math.floor(this.number * 150);
         
