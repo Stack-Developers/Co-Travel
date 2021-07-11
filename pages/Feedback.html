@@ -5,12 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/Feedback.css">
+    <title>Co-Travel Feedback</title>
+    <link rel="stylesheet" href="../css/feedback.css">
 </head>
 
 <body>
+    <img id="gif" src="../images/gif.gif" autoplay loop>
+    <!-- <script async src="https://w.appzi.io/w.js?token=2Os5S"></script> -->
+    <div>
+        <h1>The Co-Travel web-page: Customer Feedback</h1>
+        <div class="rw-ui-container"></div>
 
+    </div>
+    <!-- <img src="../images/Capture.PNG"> -->
+    <div class="container">
+        <div class="cube">
+          <div class="face front"></div>
+          <div class="face back"></div>
+          <div class="face right"></div>
+          <div class="face left"></div>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+        </div>
+      </div>
+        <div class="container2">
+        <div class="center">
+    <form id="feedbackForm">
+        <fieldset>
+            <legend>Feedback Form</legend>
+            <label>Name</label>
+            <input id="name" type="text" /><br /><br />
+    
+            <label>Email</label>
+            <input id="email" type="email" /><br /><br />
+    
+            <label>Message</label><br /><br /> 
+            <textarea id="message" cols="30" rows="5"></textarea>
+    
+            <button type="submit">Submit </button>
+    
+        </fieldset>
+    
+    </form>
+        </div>
+    </div>
+  
+        <section>
+            <h2> Previous Feedback</h2>
+            <p id="feedback">
+        
+            </p>
+          </section>
+
+    <script src="../js/feedback.js"></script>
 </body>
 
 </html>
