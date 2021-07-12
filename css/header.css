@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+}
+
+#header {
+    position: fixed;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all .7s ease;
+}
+
+#header.hide {
+    top: -150px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+
+.navbar ul {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: -2%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Overpass', sans-serif;
+    color: black;
+    font-weight: 900;
+    margin-left: 170px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Tour</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Overpass:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
+</head>
+
+<header id="header">
+    <img class="logo" src="../images/logo.png" alt="logo">
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="../pages/Adventure.html">Adventure Tour</a></li>
+            <li><a href="../pages/Relaxation.html">Relaxation Tour</a></li>
+            <li><a href="../pages/Feedback.html">Feedback</a></li>
+            <li><a href="../pages/About-us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<body>
+    <main>
+        <div>
+            <img src="https://via.placeholder.com/300x400" alt="placeholder">
+            <img src="https://via.placeholder.com/300x400" alt="placeholder">
+            <img src="https://via.placeholder.com/300x400" alt="placeholder">
+        </div>
+        <div id="form">
+            <form id="UserInput">
+                <fieldset>
+                    <legend>Tour Request Form</legend>
+                    <br>
+                    <label for="nameField">Full Name: </label>
+                    <input type="text" id="nameField">
+                    <br>
+                    <br>
+                    <label for="emailField">E-mail: </label>
+                    <input type="text" id="emailField">
+                    <br>
+                    <br>
+                    <label for="phoneField">Phone Number: </label>
+                    <input type="tel" id="phoneField" placeholder="123-45-678">
+                    <br>
+                    <br>
+                    <label for="package">Choose Your Desired Package: </label>
+                    <select name="package" id="package">
+                        <option value="3 Days & 2 Nights">3 Days & 2 Nights</option>
+                        <option value="5 Days & 4 Nights">5 Days & 4 Nights</option>
+                        <option value="7 Days & 6 Nights">7 Days & 6 Nights</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="touristField">Number of Tourists: </label>
+                    <input type="number" id="touristField">
+                    <br>
+                    <br>
+                    <label for="dateField">Tour Date: </label>
+                    <input type="date" id="dateField">
+                    <br>
+                    <br>
+                    <label for="vaccine">Are You Vaccinated Against Covid-19? </label>
+                    <select name="vaccine" id="vaccine">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="submit">Submit </button>
+
+                </fieldset>
+
+            </form>
+        </div>
+        <div id="ticketa">
+
+        </div>
+    </main>
+
+
+    <footer id="footer">
+        <section id="coninfo">
+            <h2>Contact Information:</h2>
+            <h4><a href=""> Telephone: +962 7948 7207</a></h4>
+            <h4><a href=""> WhatsApp: +962 2648 9385 </a></h4>
+            <h4><a href=""> Zahrat Al Madaen st, Amman, Jordan</a></h4>
+        </section>
+
+        <img src="../images/logo.png" id="logo" alt="">
+
+        <div id="social">
+            <a href="https://www.facebook.com"><img src="../images/fb-icon.png" alt=""></a>
+            <a href="https://www.instagram.com"><img src="../images/insta-icon.png" alt=""></a>
+            <a href="https://flickr.com/"><img src="../images/flic-icon.png" alt=""></a>
+            <a href="https://www.pinterest.com/"><img src="../images/pint-icon.png" alt=""></a>
+            <a href="mailto:jon@example.org"><img src="../images/mail-icon.png" alt=""></a>
+        </div>
+
+        <p>&copy; created by Co-Travel 2021</p>
+
+    </footer>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/Adventure.js"></script>
+</body>
+
+</html>
