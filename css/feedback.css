@@ -211,7 +211,7 @@ margin-left: 40px;
 }
 /* marwaaaaaaaaaaaaaaaaaaan css */
 #randomfeedsec{
-  position: absolute;bottom: 20%; right: 3%;color: rgb(255, 253, 247); background-color: rgba(168, 165, 159, 0.473);border-top-right-radius: 25px;border-bottom-left-radius: 25px; border: black;
+  position: absolute;bottom: 20%; right: 3%;color: rgb(255, 253, 247); background-color: rgba(168, 165, 159, 0.473);border-radius: 25px;
 }
 
 #randomparagraph{animation: transitioninr .7s;}
