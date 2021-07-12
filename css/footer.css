@@ -1,10 +1,11 @@
 #footer {
     position: relative;
-    background-color: rgba(95, 100, 145, 0.377);
-    width: 100%;
+    background-color: rgba(2, 56, 50, 0.548);
+    width: 95%;
     height: 200px;
     border-radius: 15px;
     top: 1700px;
+    margin: auto;
 }
 
 #coninfo {
@@ -18,12 +19,14 @@
     font-family: 'Overpass', sans-serif;
     font-weight: bolder;
     top: -30px;
+    font-size: 24px;
 }
 
 #coninfo h4 a {
     font-family: 'Overpass', sans-serif;
     text-decoration: none;
     color: black;
+    font-size: 19px;
 }
 
 #social {
@@ -50,6 +53,7 @@
 #footer p {
     position: absolute;
     bottom: 10px;
-    left: 45%;
+    left: 41%;
     font-family: 'Overpass', sans-serif;
+    font-size: 25px;
 }

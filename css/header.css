@@ -1,4 +1,6 @@
-/*----- Jehad & Qais --------------- The Header --------------------*/
+body {
+    background-color: whitesmoke;
+}
 
 #header {
     position: fixed;
