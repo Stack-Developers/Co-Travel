@@ -123,6 +123,7 @@ h2{
   font-size: 35px;
 }
 legend{
+
     font-size: 40px;
     margin-bottom: 25px;
     
@@ -131,6 +132,7 @@ label{
     font-size: 35px;
 }
 input{
+
   background: rgba(255, 255, 255, 0);  
 font-size: 25px;
   height: 25px;
@@ -151,7 +153,9 @@ border-bottom: 5px solid rgba(112, 114, 117, 0.705);
 }
 
 fieldset{
-  border: 6px none rgba(69, 58, 173, 0.733);
+  /* background-image:linear-gradient(to top, rgba(255,255,255,0.9)10%, rgba(213, 218, 221, 0.205)50%), url(../images/pexels-no-name-66997.jpg); */
+
+  border: 6px solid rgba(69, 58, 173, 0.733);
   padding-right: 40px;
   padding-left: 40px;
 }

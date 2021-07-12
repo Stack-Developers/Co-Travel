@@ -1,0 +1,226 @@
+
+
+/* /////////* add by malak & marwan ////////// */
+
+body{
+    background-color: whitesmoke;
+}
+
+main{
+    position: relative;
+}
+#pare1{
+    font-size: 27px;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 55%;
+    text-align: justify;
+
+
+}
+#par2{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    display: inline-block;
+    left: 10px;;
+}
+#m1 {
+    position: relative;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    
+  /* width: 33.33%; */
+  padding: 5px;
+  height: 40%;
+  /* text-overflow: initial; */
+
+ 
+}
+#m11{
+    
+    float: right;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+
+}
+
+
+#m2 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    float: right;
+  /* width: 33.33%; */
+  padding: 5px;
+ 
+}
+#m22{
+    float: left;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+
+}
+#par3{
+    /* content: ""; */
+  clear: both;
+  display: table;
+}
+
+
+
+#m3 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    float: left;
+  /* width: 33.33%; */
+  padding: 5px;
+ 
+}
+#m33{
+    float: right;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+
+}
+
+#par4{
+    /* content: ""; */
+  clear: both;
+  display: table;
+}
+
+#m4 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    float: right;
+  /* width: 33.33%; */
+  padding: 5px;
+ 
+}
+#m44{
+    float: left;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+
+}
+#par5{
+    /* content: ""; */
+  clear: both;
+  display: table;
+}
+
+#m5 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    float: left;
+  /* width: 33.33%; */
+  padding: 5px;
+ 
+}
+#m55{
+    float: right;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+
+}
+#par6{
+    /* content: ""; */
+  clear: both;
+  display: table;
+}
+
+
+#m6 {
+    font-size: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    float: right;
+  /* width: 33.33%; */
+  padding: 5px;
+  height: 10px;
+ 
+}
+#m66{
+    float: left;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+  height: 2%;
+
+}
+#par7{
+    content: "";
+   clear: both; 
+  display: table;
+  /* height: 35%;  */
+}
+
+#m7 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    float: left;
+  /* width: 33.33%; */
+  padding: 5px;
+ 
+}
+#m77{
+    float: right;
+    width: 35%;
+    /* float: left; */
+  /* width: 33.33%; */
+  padding: 5px;
+
+}
+#par8{
+    /* content: ""; */
+  clear: both;
+  display: table;
+  height: 35%;
+}
+
+
+
+
+
+
+
+
