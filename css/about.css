@@ -1,12 +1,11 @@
 #CvContainer {
-    position: absolute;
+    position: relative;
     display: block;
     width: 100%;
     left: 0px;
-    top: 900px;
     background-color: whitesmoke;
     padding-bottom: 150px;
-    height: 900px;
+    height: auto;
 }
 
 #jehad,

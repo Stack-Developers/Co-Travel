@@ -1,5 +1,3 @@
-///////////////////////////////////////////// malak js code  /////////////////////////////////////////// 
-
 'use strict';
 
 const feedbackForm = document.getElementById('feedbackForm');
@@ -117,27 +115,29 @@ getFromLs();
 	// 	s.parentNode.insertBefore(rw, s);
 	// 	}(document, new Date(), "script", "rating-widget.com/"));
 
+
+
 // for render random feedback       
     //  marwaaaaaaaaaan worke start       
     function random(){
-		return Math.floor(Math.random()*Feedback.Info.length)
-	}
-	
-  let i=random()
-  let randomfeedsec=document.getElementById('randomfeedsec')
-	  let notrandom=document.getElementById('randomparagraph')
-	  randomfeedsec.appendChild(randomparagraph)
-	  randomparagraph.textContent= `“${Feedback.Info[i].message}“ ___ ${Feedback.Info[i].name} `
-			  setInterval(function(){ 
-				let notrandom=document.getElementById('randomparagraph')
-				notrandom.remove()
-				let randomfeedsec=document.getElementById('randomfeedsec')
-				let randomparagraph=document.createElement('p')
-				randomparagraph.setAttribute("id", "randomparagraph");
-				randomfeedsec.appendChild(randomparagraph)
-				i=random()
-		randomparagraph.textContent= `“${Feedback.Info[i].message}“ ___ ${Feedback.Info[i].name} `
+      return Math.floor(Math.random()*Feedback.Info.length)
+  }
   
-  
-	  }, 7300);
-	   //  marwaaaaaaaaaan worke end  
+let i=random()
+let randomfeedsec=document.getElementById('randomfeedsec')
+    let notrandom=document.getElementById('randomparagraph')
+    randomfeedsec.appendChild(randomparagraph)
+    randomparagraph.textContent= `“${Feedback.Info[i].message}“ ___ ${Feedback.Info[i].name} `
+            setInterval(function(){ 
+              let notrandom=document.getElementById('randomparagraph')
+              notrandom.remove()
+              let randomfeedsec=document.getElementById('randomfeedsec')
+              let randomparagraph=document.createElement('p')
+              randomparagraph.setAttribute("id", "randomparagraph");
+              randomfeedsec.appendChild(randomparagraph)
+              i=random()
+      randomparagraph.textContent= `“${Feedback.Info[i].message}“ ___ ${Feedback.Info[i].name} `
+
+
+    }, 7300);
+     //  marwaaaaaaaaaan worke end  
