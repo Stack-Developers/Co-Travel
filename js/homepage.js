@@ -67,7 +67,7 @@ function getFromLs() {
       let paragraph = document.createElement('p')
       paragraph.setAttribute("id", "feedarrowl");
       feedarrows.appendChild(paragraph)
-      paragraph.textContent = `“${parsedOrder[p].message}“`
+      paragraph.textContent = `“ ${parsedOrder[p].message}“`
       let empty = document.createElement('br')
       empty.setAttribute("id", "empty");
       paragraph.appendChild(empty)
