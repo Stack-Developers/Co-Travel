@@ -21,8 +21,8 @@
 
 #div h2 {
     position: absolute;
-    right: 950px;
-    top: 450px;
+    right: 50%;
+    top: 50%;
     font-size: 40px;
     font-family: 'Shadows Into Light', cursive;
     color: black;
@@ -36,8 +36,8 @@
     font-family: 'Indie Flower', cursive;
     position: absolute;
     width: 800px;
-    right: 600px;
-    top: 550px;
+    right: 30%;
+    top: 65%;
     font-size: 30px;
     font-weight: bolder;
     color: black;
