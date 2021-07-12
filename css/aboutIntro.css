@@ -3,7 +3,7 @@ body {
 }
 
 #div {
-    position: absolute;
+    position: relative;
     display: block;
     width: 100%;
     left: 0px;
@@ -12,7 +12,7 @@ body {
 }
 
 #image {
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -24,7 +24,7 @@ body {
 #div h2 {
     position: absolute;
     right: 50%;
-    top: 50%;
+    top: 35%;
     font-size: 40px;
     font-family: 'Shadows Into Light', cursive;
     color: black;
@@ -39,7 +39,7 @@ body {
     position: absolute;
     width: 800px;
     right: 30%;
-    top: 65%;
+    top: 43%;
     font-size: 30px;
     font-weight: bolder;
     color: black;
