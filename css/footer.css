@@ -9,12 +9,15 @@
 
 #coninfo {
     position: absolute;
-    top: 10px;
+    top: 100px;
     left: 15px;
 }
 
 #coninfo h2 {
+    position: absolute;
     font-family: 'Overpass', sans-serif;
+    font-weight: bolder;
+    top: -30px;
 }
 
 #coninfo h4 a {
