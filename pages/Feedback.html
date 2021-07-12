@@ -35,73 +35,75 @@
 </header>
 
 <body>
-    <img id="gif" src="../images/gif (1).gif" autoplay loop>
+    
     <!-- <script async src="https://w.appzi.io/w.js?token=2Os5S"></script> -->
 
 
     <img id="gif" src="../images/gif.gif" autoplay loop>
     <!-- marwan adding start -->
-    <section id="randomfeedsec" > <p id="randomparagraph" ></p></section>
+    <section id="randomfeedsec">
+        <p id="randomparagraph"></p>
+    </section>
     <!-- marwan adding end -->
     <!-- <script async src="https://w.appzi.io/w.js?token=2Os5S"></script> -->
-    <div>
-        <h1>The Co-Travel web-page: Customer Feedback</h1>
-        <div class="rw-ui-container"></div>
+    
 
-    </div>
+        <h1 id="giveus">Give us your feedbcak about our services.. </h1>
+        <!-- <div class="rw-ui-container"></div> -->
+
+    
     <!-- <img src="../images/Capture.PNG"> -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="cube">
-          <div class="face front"></div>
-          <div class="face back"></div>
-          <div class="face right"></div>
-          <div class="face left"></div>
-          <div class="face top"></div>
-          <div class="face bottom"></div>
+            <div class="face front"></div>
+            <div class="face back"></div>
+            <div class="face right"></div>
+            <div class="face left"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
         </div>
-      </div>
-        <div class="container2">
-        <div class="center">
+    </div> -->
+    
+            <form id="feedbackForm">
+                <fieldset>
+                    <legend>Feedback Form</legend>
+                    <label>Name</label>
+                    <input id="name" type="text" /><br /><br />
 
-    <form id="feedbackForm">
-        <fieldset>
-            <legend>Feedback Form</legend>
-            <label>Name</label>
-            <input id="name" type="text" /><br /><br />
-    
-            <label>Email</label>
-            <input id="email" type="email" /><br /><br />
-    
-            <label>Message</label><br /><br /> 
-            <textarea id="message" cols="30" rows="5"></textarea>
-    
-            <button type="submit">Submit </button>
-    
-        </fieldset>
-    
-    </form>
-        </div>
-    </div>
-  
-        <section>
-            <h2> Previous Feedback</h2>
-            <p id="feedback">
+                    <label>Email</label>
+                    <input id="email" type="email" /><br /><br />
+
+                    <label>Message</label><br /><br />
+                    <textarea id="message" cols="30" rows="5"></textarea>
+
+                    <button type="submit">Submit </button>
+
+                </fieldset>
+
+            </form>
         
-            </p>
-          </section>
+<div id="prevfeed">
+    
+        <h2 > Previous Feedback</h2>
+        <p id="feedback">
+
+        </p>
+        <br>
+        <br>
+    </div>
 
 
-    <footer id="footer">
-        <section id="coninfo">
-            <h2 id="titel">Contact Information:</h2>
+    <footer>
+        <section class="coninfo">
+            <h2>Contact Information:</h2>
             <h4><a href=""> Telephone: +962 7948 7207</a></h4>
             <h4><a href=""> WhatsApp: +962 2648 9385 </a></h4>
             <h4><a href=""> Zahrat Al Madaen st, Amman, Jordan</a></h4>
         </section>
 
-        <img src="../images/logo.png" id="logo" alt="">
+        <img src="../images/logo.png" id="bottom-logo" alt="">
 
-        <div id="social">
+        <div class="social">
             <a href="https://www.facebook.com"><img src="../images/fb-icon.png" alt=""></a>
             <a href="https://www.instagram.com"><img src="../images/insta-icon.png" alt=""></a>
             <a href="https://flickr.com/"><img src="../images/flic-icon.png" alt=""></a>
@@ -115,4 +117,5 @@
     <script src="../js/header.js"></script>
     <script src="../js/feedback.js"></script>
 </body>
+
 </html>
