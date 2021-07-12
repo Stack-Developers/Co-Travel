@@ -42,3 +42,31 @@ body {
     border: black 1px solid;
     font-family: 'Lobster', cursive;
 }
+
+
+/* fooooooooooooooooooooooooooooor rendering feedback */
+
+#mainsec{width: 50%;margin: auto;
+    height: 400px ;}
+    #feedarrows{text-align: center;font-size: xx-large;margin: 50px;}
+
+
+  #right{opacity: 80%;right: 30%;bottom: 0%;transition: all .2s ease-in-out;transform:scale(1.2);;margin-bottom: 60px;}
+  #right:hover{opacity: 100%;transform:scale(1.1)}
+  #right:active{opacity: 100%;transform:scale(1)}
+  
+  #left{opacity: 80%;left:30%;bottom: 0%;transition: all .2s ease-in-out;transform:scale(1.2);;margin-bottom: 60px;}
+  #left:hover{opacity: 100%;transform:scale(1.1)}
+  #left:active{opacity: 100%;transform:scale(1)}
+  
+  #feedarrowr{ animation: transitioninr .9s ;text-align: center;color:  rgb(75, 46, 9); padding: 20px;;word-break: break-all;padding-bottom: 120px;width: 90%;margin: auto;font-size: xx-large;font-weight: bolder;}
+  @keyframes transitioninr {
+      from {opacity: 0; transform: translateX(-50%);}
+      to {opacity: 100%; transform: translateX(0px);}
+    } 
+     #feedarrowl{ animation: transitioninl .9s ;text-align: center;color:  rgb(56, 44, 6); padding: 20px;;word-break: break-all;padding-bottom: 120px;width: 90%;margin: auto;font-size: xx-large;font-weight: bolder;}
+  @keyframes transitioninl {
+      from {opacity: 0; transform: translatex(50%);}
+      to {opacity: 100%; transform: translateX(0px);}
+    } 
+    #h3{font-size: large;}
