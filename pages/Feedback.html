@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/feedback.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Overpass:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <header id="header">
@@ -33,6 +35,64 @@
 </header>
 
 <body>
+    <img id="gif" src="../images/gif (1).gif" autoplay loop>
+    <!-- <script async src="https://w.appzi.io/w.js?token=2Os5S"></script> -->
+
+    <!---------- marwan adding start -------------->
+    <section id="randomfeedsec" > 
+        <p id="randomparagraph" >
+        </p>
+    </section>
+    <!---------- marwan adding end ----------------->
+    
+    
+    <div>
+        <h1>The Co-Travel web-page: Customer Feedback</h1>
+        <!-- <div class="rw-ui-container"></div> -->
+
+    </div>
+    <!-- <img src="../images/Capture.PNG"> -->
+    <div class="container">
+        <div class="cube">
+          <div class="face front"></div>
+          <div class="face back"></div>
+          <div class="face right"></div>
+          <div class="face left"></div>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+        </div>
+      </div>
+        <div class="container2">
+        <div class="center">
+    <form id="feedbackForm">
+        <fieldset>
+            <legend>Feedback Form</legend>
+            <label>Name</label>
+            <input id="name" type="text" /><br /><br />
+    
+            <label>Email</label>
+            <input id="email" type="email" /><br /><br />
+    
+            <label>Message</label><br /><br /> 
+            <textarea id="message" cols="30" rows="5"></textarea>
+    
+            <button type="submit">Submit </button>
+    
+        </fieldset>
+    
+    </form>
+        </div>
+    </div>
+  
+        <section>
+            <h2> Previous Feedback</h2>
+            <p id="feedback">
+        
+            </p>
+          </section>
+
+    
+
     <footer id="footer">
         <section id="coninfo">
             <h2>Contact Information:</h2>
@@ -54,8 +114,7 @@
         <p>&copy; created by Co-Travel 2021</p>
 
     </footer>
-
     <script src="../js/header.js"></script>
+    <script src="../js/feedback.js"></script>
 </body>
-
 </html>
