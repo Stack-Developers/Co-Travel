@@ -1,0 +1,43 @@
+
+body{width: 100%;}
+
+#Intro {
+    display: block;
+}
+
+#homeIntro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    max-width: 100%;
+}
+
+#textContent h1 {
+    position: absolute;
+    z-index: -100;
+    left: 200px;
+    top: 400px;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    border-radius: 10px;
+    border: black 1px solid;
+    font-family: 'Lobster', cursive;
+}
+
+#textContent p {
+    position: absolute;
+    z-index: -100;
+    left: 500px;
+    top: 550px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    border-radius: 10px;
+    border: black 1px solid;
+    font-family: 'Lobster', cursive;
+}

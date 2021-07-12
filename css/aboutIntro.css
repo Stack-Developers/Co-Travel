@@ -1,0 +1,52 @@
+body {
+    background-color: whitesmoke;
+}
+
+#div {
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0px;
+    top: 0px;
+    height: 1100px;
+}
+
+#image {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    height: 1000px;
+    padding: 0px;
+}
+
+#div h2 {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.349);
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#div p {
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    width: 800px;
+    right: 30%;
+    top: 65%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+}

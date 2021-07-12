@@ -116,6 +116,7 @@ getFromLs();
 	// 	}(document, new Date(), "script", "rating-widget.com/"));
 
 
+
 // for render random feedback       
     //  marwaaaaaaaaaan worke start       
     function random(){
