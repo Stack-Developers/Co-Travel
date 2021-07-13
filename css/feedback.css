@@ -1,24 +1,19 @@
 /* ///////////////////////////////////////////// malak css code  ///////////////////////////////////////////  */
 
-body { font-family: 'Overpass', sans-serif;
-  /* background-color: rgb(236, 240, 240); */
-  /* background-image: linear-gradient(to top, rgba(255,255,255,0.9)10%, rgba(213, 218, 221, 0.205)50%), url(../images/pexels-no-name-66997.jpg); 
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
-  /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(122, 185, 228)); */
-  background-color: whitesmoke;
+body {
+    font-family: 'Overpass', sans-serif;
 }
 
 #gif {
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: -100;
-  /* max-width: 100%; */
-  width: 100%;
-  height:780px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    /* max-width: 100%; */
+    width: 100%;
+    height: 780px;
 }
+
 
 /* .container {
   width: 200px;
@@ -27,6 +22,7 @@ body { font-family: 'Overpass', sans-serif;
   margin: 100px auto 0;
   margin-left: 1000px;
 } */
+
 
 /* .cube {
   transform-style: preserve-3d;
@@ -40,7 +36,10 @@ body { font-family: 'Overpass', sans-serif;
   width: 100%;
   height: 100%;
   /* background-image: repeating-linear-gradient(0deg, rgba(70,70,70, 0.2) 0px, rgba(70,70,70, 0.2) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgba(70,70,70, 0.2) 0px, rgba(70,70,70, 0.2) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255)); */
+
+
 /* }  */
+
 
 /* .top {
   transform: rotateX(90deg) translateZ(100px);
@@ -77,6 +76,8 @@ body { font-family: 'Overpass', sans-serif;
   background-image: url(../images/ahmad-qaisieh-KzixLtPfp64-unsplash.jpg);
   background-size: cover;
 } */
+
+
 /* 
 @keyframes spin {
   from {
@@ -95,31 +96,28 @@ body { font-family: 'Overpass', sans-serif;
   animation: spin 18s infinite linear;
 } */
 
-#giveus { position: relative;
-  font-size: 40px;
-  top:30px;
- left:20px;
-  width: 80%;
-  
+#giveus {
+    position: relative;
+    font-size: 40px;
+    top: 30px;
+    left: 20px;
+    width: 80%;
 }
 
-
 #feedbackForm {
-  position: relative;
-  left: 60px;
-top: 100px;
-width: 50%;
-
+    position: relative;
+    left: 60px;
+    top: 100px;
+    width: 50%;
 }
 
 legend {
-  font-size: 40px;
-
-  margin-bottom: 25px;
+    font-size: 40px;
+    margin-bottom: 25px;
 }
 
 label {
-  font-size: 35px;
+    font-size: 35px;
 }
 legend{
 
@@ -132,62 +130,63 @@ label{
 }
 
 input {
-  background: rgba(255, 255, 255, 0);
-  font-size: 25px;
-  height: 25px;
-  border: none;
-  border-bottom: 3px solid rgba(112, 114, 117, 0.705);
-  border: 3px solid rgba(66, 73, 87, 0.63);
-  width: 94%;
-  padding: 12px 20px;
-  margin: 8px 0;
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    height: 25px;
+    border: none;
+    border-bottom: 3px solid rgba(112, 114, 117, 0.705);
+    border: 3px solid rgba(66, 73, 87, 0.63);
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
 }
 
-
 textarea {
-  background: rgba(255, 255, 255, 0);
-  font-size: 25px;
-  /* border: 3px solid #555; */
-  border: none;
-  border-bottom: 5px solid rgba(112, 114, 117, 0.705);
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    /* border: 3px solid #555; */
+    border: none;
+    border-bottom: 5px solid rgba(112, 114, 117, 0.705);
 }
 
 fieldset {
-  border: 6px none rgba(69, 58, 173, 0.733);
-  padding-right: 40px;
-  padding-left: 40px;
+    border: 6px none rgba(69, 58, 173, 0.733);
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 button {
-  color: #ffffff;
-  font-size: 20px;
-  background: rgba(255, 255, 255, 0);
-  /* border: 1px #000000;  */
-  border-radius: 5px;
-  background: linear-gradient(to right, rgba(22, 20, 15, 0.877)40%, rgba(4, 76, 112, 0.911));
-  /* padding-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0);
+    /* border: 1px #000000;  */
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(22, 20, 15, 0.877)40%, rgba(4, 76, 112, 0.911));
+    /* padding-top: 20px;
 padding-left: 16px; */
-  height: 55px;
-  width: 180px;
-  content: "";
-  display: table;
-  clear: both;
-  margin-left: 140px;
-  margin-top: 20px;
+    height: 55px;
+    width: 180px;
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 140px;
+    margin-top: 20px;
 }
 
 button:hover {
-  background-color: #0c7aa531;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  box-shadow: 1px 1px #07599c, 2px 2px #7c98af, 3px 3px #53a7ea;
+    background-color: #0c7aa531;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 1px 1px #07599c, 2px 2px #7c98af, 3px 3px #53a7ea;
 }
+
 
 /* 
 .rw-ui-container {
   margin-left: 10px;
 } */
+
 
 /* .center {
   position: absolute;
@@ -196,18 +195,20 @@ button:hover {
   transform: translate(-50%, -50%);
   font-size: 18px;
 } */
-#prevfeed{ position: relative;
-  top:180px;
-margin-bottom: 300px;
-}
-#prevfeed h2 {
-  
 
- width: 40%;
- margin: auto;
-  text-align: center;
-  font-size: 35px;
+#prevfeed {
+    position: relative;
+    top: 180px;
+    margin-bottom: 300px;
 }
+
+#prevfeed h2 {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
 
 /* #feedback{
   position: relative;font-size: 30px;
@@ -220,14 +221,24 @@ margin-bottom: 300px;
   margin: auto;
 
 } */
-#feedback{ position: relative;font-size: 30px;
-  text-align:start;text-align: justify;
-  text-align: center; line-height: 4;
-  border-radius: 15px;
-  border:solid 1px black;
-  background-color: rgba(33, 58, 53, 0.384);
-  width: 85%;
-  margin: auto;    height: 500px;    overflow-x: hidden;    overflow-y: auto;           }
+
+#feedback {
+    position: relative;
+    font-size: 30px;
+    text-align: start;
+    text-align: justify;
+    text-align: center;
+    line-height: 4;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: rgba(33, 58, 53, 0.384);
+    width: 85%;
+    margin: auto;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 
 /* 
 img {
@@ -347,5 +358,3 @@ p {
   #left{opacity: 80%;left:30%;bottom: 2%;transition: all .2s ease-in-out;transform:scale(1.2);position: absolute; right: 60%;}
   #left:hover{opacity: 100%;transform:scale(1.1);}
   #left:active{opacity: 100%;transform:scale(1)}
-
-
