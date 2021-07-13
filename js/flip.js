@@ -1,4 +1,17 @@
 'use strict'
+
+document.getElementById('div').onmouseover = function() { hide() };
+
+function hide() {
+
+    document.getElementById("jehadInfo").style.display = "none";
+    document.getElementById("marwanInfo").style.display = "none";
+    document.getElementById("malakInfo").style.display = "none";
+    document.getElementById("faisalInfo").style.display = "none";
+    document.getElementById("qaisInfo").style.display = "none";
+    document.getElementById("samInfo").style.display = "none";
+}
+
 document.getElementById("jehad").onmouseover = function() { mouseOver1() };
 document.getElementById("jehad").onmouseout = function() { mouseOut1() };
 document.getElementById("marwan").onmouseover = function() { mouseOver2() };

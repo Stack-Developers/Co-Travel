@@ -121,6 +121,15 @@ legend {
 label {
   font-size: 35px;
 }
+legend{
+
+    font-size: 40px;
+    margin-bottom: 25px;
+    
+}
+label{
+    font-size: 35px;
+}
 
 input {
   background: rgba(255, 255, 255, 0);
