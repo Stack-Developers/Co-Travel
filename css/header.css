@@ -11,6 +11,7 @@ header {
     width: 100%;
     z-index: 100;
     transition: all .7s ease;
+    background-color: rgb(167, 164, 164);
 }
 
 header.hide {
@@ -21,7 +22,7 @@ header.hide {
     position: absolute;
     right: 3%;
     width: 100px;
-    height: 100px;
+    height: 95px;
     z-index: 100;
 }
 
@@ -33,7 +34,6 @@ header.hide {
 
 .navbar ul {
     display: block;
-    background-color: rgb(167, 164, 164);
     /* border-radius: 10px; */
     padding: 2%;
 }
