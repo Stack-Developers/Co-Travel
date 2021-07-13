@@ -96,6 +96,9 @@ body {
   animation: spin 18s infinite linear;
 } */
 
+
+
+
 #giveus {
     position: relative;
     font-size: 40px;
@@ -109,6 +112,7 @@ body {
     left: 60px;
     top: 100px;
     width: 50%;
+    
 }
 
 legend {
@@ -149,13 +153,13 @@ textarea {
     border-bottom: 5px solid rgba(112, 114, 117, 0.705);
 }
 
-fieldset {
-    border: 6px none rgba(69, 58, 173, 0.733);
+fieldset {border: rgba(112, 114, 117, 0.705) 4px solid;
+   border-radius: 10px;
     padding-right: 40px;
     padding-left: 40px;
 }
 
-button {
+button {transition: all .2s ease-in-out;
     color: #ffffff;
     font-size: 20px;
     background: rgba(255, 255, 255, 0);
@@ -169,15 +173,15 @@ padding-left: 16px; */
     content: "";
     display: table;
     clear: both;
-    margin-left: 140px;
+    margin-left: 500px;
     margin-top: 20px;
 }
 
-button:hover {
+button:hover {transition: all .2s ease-in-out;
     background-color: #0c7aa531;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
     box-shadow: 1px 1px #07599c, 2px 2px #7c98af, 3px 3px #53a7ea;
 }
 
@@ -207,21 +211,23 @@ button:hover {
     margin: auto;
     text-align: center;
     font-size: 35px;
+    font-weight: 800;
 }
 
 
 /* #feedback{
   position: relative;font-size: 30px;
   text-align:start;text-align: justify;
-  text-align: center; line-height: 4;
+    line-height: 3; 
   border-radius: 15px;
   border:solid 1px black;
   background-color: rgba(33, 58, 53, 0.384);
-  width: 85%;
+  width: 70%;
   margin: auto;
-
-} */
-
+  overflow-x: hidden;
+  overflow-y: auto;
+}   */
+/* 
 #feedback {
     position: relative;
     font-size: 30px;
@@ -237,7 +243,7 @@ button:hover {
     height: 500px;
     overflow-x: hidden;
     overflow-y: auto;
-}
+} */
 
 
 /* 
@@ -246,19 +252,32 @@ img {
 } */
 
 
-/* 
-p { 
+
+#feedback  {opacity: .7;transition: all .2s ease-in-out;
   font-size: 30px;
-  text-align:start;
+  /* text-align:start; */
   height: 140px;
   text-overflow: initial;
   width: 500px;
   text-align: justify;
-  text-align: center;  
+  /* text-align: center;   */
   margin-left: 40px;
-  white-space: pre;
+  /* white-space: pre; */
   margin-bottom: 55px;
-} */
+
+  border-radius: 15px;
+    /* border: solid 1px black; */
+    background-color: rgba(166, 175, 173, 0.384);
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;box-shadow: 10px 10px 5px grey;
+} 
+#feedback p{  width: 60%;margin: 30px;font-weight: 800;}
+
+#feedback:hover{opacity: 1;transition: all .2s ease-in-out;}
+
 
 
 /* p{
@@ -271,13 +290,13 @@ p {
 /* css for random selector feedbackpage */
 #randomfeedsec {
   position: absolute;
-  bottom: 20%;
+  bottom: 5%;
   right: 3%;
   color: rgb(255, 253, 247);
   background-color: rgba(168, 165, 159, 0.473);
   border-top-left-radius: 25px;border-bottom-right-radius: 25px;border:solid 1px black;
   width: 500px;
-  height: 400px;
+  height: 370px;
 }
 
 #randomparagraph {
