@@ -45,27 +45,25 @@ body {
 
 
 /* The two images code by Faisal */
+
 .adventure {
     position: relative;
     width: 300px;
     height: 350px;
     left: 10px;
-    left: 320px;
-    top:20px;
-  
-  
-  }
-  
-  .adventure img {
+    left: 30%;
+    top: 20px;
+}
+
+.adventure img {
     display: block;
     object-fit: cover;
     width: 300px;
     height: 350px;
     border-radius: 11px;
-    
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -77,13 +75,13 @@ body {
     transition: 1.0s ease;
     background-color: #f0f5f7;
     border-radius: 11px;
-  }
-  
-  .adventure:hover .overlay {
-    opacity:0.8;
-  }
-  
-  .text {
+}
+
+.adventure:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
     color: black;
     font-size: 20px;
     position: absolute;
@@ -93,29 +91,27 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+}
 
-  .relaxation {
+.relaxation {
     position: relative;
     width: 300px;
     height: 350px;
     left: 10px;
     float: right;
-    left: -320px;
+    left: -30%;
     top: -330px;
-    
-    
-  }
-  
-  .relaxation img {
+}
+
+.relaxation img {
     display: block;
     object-fit: cover;
     width: 300px;
     height: 350px;
     border-radius: 11px;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -127,13 +123,13 @@ body {
     transition: 1.0s ease;
     background-color: #f0f5f7;
     border-radius: 11px;
-  }
-  
-  .relaxation:hover .overlay {
+}
+
+.relaxation:hover .overlay {
     opacity: 0.8;
-  }
-  
-  .text {
+}
+
+.text {
     color: black;
     font-size: 20px;
     position: absolute;
@@ -143,5 +139,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
-  /* The end of the image code */
+}
+
+
+/* The end of the image code */
