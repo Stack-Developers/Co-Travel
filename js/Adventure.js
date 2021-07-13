@@ -19,6 +19,7 @@ const UserInput = document.getElementById("UserInput");
 UserInput.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
+  // card.style.display = "none";
   event.preventDefault();
 
   let newName = event.target.nameField.value;
@@ -30,6 +31,7 @@ function handleSubmit(event) {
   let newVaccine = event.target.vaccine.value;
 
   new Tour(newName, newEmail, newPhone, newPackages, newNumber, newDate, newVaccine);
+  
   renderTicket();
 }
 
@@ -54,24 +56,44 @@ const Ticket = document.getElementById("ticketa");
 
 function renderTicket() {
      Ticket.textContent = '';
-        
+     document.querySelector('.card').style.display = "inline-block";
         let lastIndexInArray = Tour.adventure.length-1;
         let ticket1 = document.createElement("div");
         Ticket.appendChild(ticket1);
         let par1 = document.createElement("pre");
         ticket1.appendChild(par1);
-        par1.textContent = `Full Name: ${Tour.adventure[lastIndexInArray].name}                        E-mail: ${Tour.adventure[lastIndexInArray].email}                        PhoneNumber: ${Tour.adventure[lastIndexInArray].phone} `;
+        par1.style.fontSize="25px";
+        par1.style.display="block";
+        par1.style.padding="10px";
+        par1.textContent = `Full Name: ${Tour.adventure[lastIndexInArray].name}                    E-mail: ${Tour.adventure[lastIndexInArray].email}                    PhoneNumber: ${Tour.adventure[lastIndexInArray].phone} `;
         let par2 = document.createElement("pre");
         ticket1.appendChild(par2);
-        par2.textContent = `Desired Package: ${Tour.adventure[lastIndexInArray].packages}              Number of Tourists: ${Tour.adventure[lastIndexInArray].number}                                Tour Date: ${Tour.adventure[lastIndexInArray].date} `;
+        par2.style.fontSize="25px";
+        par2.style.display="block";
+        par2.style.padding="10px";
+
+        par2.textContent = `Desired Package: ${Tour.adventure[lastIndexInArray].packages}           Number of Tourists: ${Tour.adventure[lastIndexInArray].number}              Tour Date: ${Tour.adventure[lastIndexInArray].date} `;
         let par3 = document.createElement("pre");
         ticket1.appendChild(par3);
+        par3.style.fontSize="25px";
+        par3.style.display="block";
+        par3.style.padding="10px";
         par3.textContent = `Vaccinated Against Covid-19: ${Tour.adventure[lastIndexInArray].vaccine} `;
         let par4 = document.createElement("pre");
         ticket1.appendChild(par4);
-        par4.textContent = `BASED TO THE JORDANIAN GOVERNMENT REGULATION REGARDING TO COVID-19 YOU HAVE TO BE EITHER VACCINATED OR PROVIDE A PCR TEST IN THE LAST 72 HOURS `;
+        par4.style.fontSize="25px";
+        par4.style.display="block";
+        par4.style.padding="10px";
+
+        par4.textContent = `BASED TO THE JORDANIAN GOVERNMENT REGULATION REGARDING TO COVID-19 
+YOU HAVE TO BE EITHER VACCINATED OR PROVIDE A PCR TEST IN THE LAST 72 HOURS `;
+
         let par6 = document.createElement("pre");
         ticket1.appendChild(par6);
+        par6.style.fontSize="25px";
+        par6.style.display="block";
+        par6.style.padding="10px";
+
         if (Tour.adventure[lastIndexInArray].packages ===  "3 Days & 2 Nights") {
             let total1 = Math.floor(Tour.adventure[lastIndexInArray].number * 150);
             par6.textContent = `Total Cost of Your Tour: ` + total1 + ' JOD';
@@ -85,7 +107,18 @@ function renderTicket() {
   
     if (Tour.adventure.length >= 1) {
         UserInput.removeEventListener("submit", handleSubmit);
+        
+      
         UserInput.reset();
     }
 }
 
+
+
+
+
+// import lineClamp from "https://cdn.skypack.dev/line-clamp@1.0.0";
+// var cardParagraphs = document.querySelectorAll(".card p");
+// for (let cardParagraph in cardParagraphs) {
+// 	lineClamp(cardParagraphs[cardParagraph], 9);
+// }
