@@ -4,16 +4,16 @@ body {
     background-color: whitesmoke;
 }
 
-#header {
+header {
     position: fixed;
-    height: 300px;
+    height: 350px;
     top: 0;
     width: 100%;
     z-index: 100;
     transition: all .7s ease;
 }
 
-#header.hide {
+header.hide {
     top: -150px;
 }
 
@@ -23,6 +23,7 @@ body {
     width: 100px;
     height: 100px;
     z-index: 100;
+
 }
 
 .navbar {
@@ -33,7 +34,7 @@ body {
 
 .navbar ul {
     display: block;
-    background-color: rgb(253, 246, 246);
+    background-color: rgb(167, 164, 164);
     /* border-radius: 10px; */
     padding: 2%;
 }
