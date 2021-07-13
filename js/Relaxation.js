@@ -1,4 +1,5 @@
 "use strict";
+// this part for the Image functinallity 
 
 Tour.adventure = [];
 

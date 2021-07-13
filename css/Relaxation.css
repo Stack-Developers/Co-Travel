@@ -1,0 +1,238 @@
+* {
+	box-sizing: border-box;
+}
+
+section {
+    margin-top: 5%;
+    display: grid;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+	 
+	background-image: linear-gradient(-45deg, tomato, #b0b95b);
+	font-family: "Quicksand", sans-serif;
+}
+
+#firststTour{
+position: relative;
+ width: 31%;
+ left:2%;
+ 
+ top: 5%;
+}
+#secondndTour{
+    position: relative;
+     width: 31%;
+    left:2%;
+     margin-left:1%;
+     top: 5%;
+}
+
+#thirdTour{
+
+position: relative;
+ width: 31%;
+ left:2%;
+ margin-left: 1%;
+ top: 5%;
+}
+
+
+.card,
+.process {
+	
+	margin: 5px auto 5px auto;
+	padding:10px;
+	background-color: #fffbf2;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(77, 77, 77, 1);
+}
+.card {
+    position: relative;
+	display: grid;
+	grid: auto / 1fr 1fr;
+	gap:5%;
+}
+.columns {
+	columns: 50px 2;
+}
+h1 {
+	font-size: 1px;
+	background-color: #b0b95b;
+}
+h1,
+h2 {
+	font-family: "Italiana", serif;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+h2 {
+	font-size: 1.75em;
+	color: #fff;
+	background-color: tomato;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+ul.Scheduale {
+	padding: 0 15px;
+}
+ul.Scheduale > li {
+	padding: 5px 10px;
+	border-bottom: 1px solid rgba(255, 99, 71, 0.3);
+}
+ul.locations {
+	margin: 0;
+	padding:10px 10px 0 10px;
+}
+li {
+	line-height: 1.8;
+}
+
+figure img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+figcaption {
+	font-size: 0.6rem;
+	text-align: center;
+}
+.variation {
+	font-size: 0.9rem;
+	margin: 1px 25px 0 0;
+}
+
+.next {
+	font-size: 0.8rem;
+	float: right;
+	margin: 0 20px 20px 0;
+	padding: 5px 15px;
+	background-color: tomato;
+	border-radius: 5px;
+	box-shadow: 0 2px 8px rgba(77, 77, 77, 1);
+	transition: all 0.3s ease;
+}
+.next:hover {
+	box-shadow: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+p.last {
+	width: 80%;
+	margin: 10px auto 20px auto;
+	padding-bottom: 10px;
+	font-size:1 px;
+	text-align: center;
+	border-bottom: 2px solid tomato;
+}
+
+
+/*--------------form styling-------------*/
+#form{
+    background-color: wheat;
+  }
+  
+  body{
+    background-color:white;
+    font-family: Rockwell, Georgia, serif;
+      max-width: 1000px;
+    width:90%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 8px rgba(0,0,0.15)
+  }
+ legend{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding:6px;
+  }
+  
+  
+  /* FORM STUFF BEGINS HERE */
+  form{
+    font-size:100%
+  }
+  label{
+    display:block;
+    color:saddlebrown;
+    margin:16px 0 3px;
+  }
+  fieldset label{
+    display:inline-block;
+    font-size:85%;
+
+  }
+  
+  
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  select{
+    width:100%;
+    
+    box-sizing:border-box;
+    background-color:cornsilk;
+    border: solid 1px tan;
+    
+  }
+  textarea{
+    
+    min-height: 10px;
+  }
+  fieldset{
+    border:none;
+    margin:20px 0 ;
+    padding:10px 0;
+    border-bottom: 1px solid tan;
+  }
+  legend{
+    color:rgb(255, 255, 255);
+    background-color:tan;
+    display:block;
+    width:100%;
+    padding:3px;
+  }
+ 
+  /* BUTTONS */
+  button[type=submit]{
+    background-color:rgb(9, 230, 9);
+    color:white;
+    border:none;
+    padding: 6px 20px;
+    font-size:110%;
+    border-radius:10px;
+    font-family: Rockwell, georgia, serif;
+  }
+  
+  /* hovers and tabs */
+  input[type=text]:hover,
+  input[type=email]:hover{
+    background-color:khaki;
+  }
+  input[type=text]:focus,
+  input[type=email]:focus{
+    outline: 2px solid tan;
+  }
+  input[type=sumbit]:hover,
+  input[type=submit]:focus{
+    background-color:limegreen;
+  }
+  #resultsSection {
+    padding: 30px;
+    width: 500px;
+    justify-content: space-evenly;
+  }
+  
+
+  /*the hidden list*/
+
+  #Tickter pre {
+      background: #7c5a0a;
+    display: inline-block;
+    text-align: center;
+  }
