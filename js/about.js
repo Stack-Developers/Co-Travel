@@ -69,7 +69,7 @@ let person6 = {
     currentYear: 2021,
     yearBorn: 1994,
     address: "Irbid, Jordan",
-    likes: ["Swimming", "Writing", "Football"],
+    likes: ["Swimming", "Writing"],
     study: "programming, Translaion",
     age: function(yearBorn, currentYear) {
         return currentYear - yearBorn;

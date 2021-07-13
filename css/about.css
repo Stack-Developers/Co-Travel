@@ -46,6 +46,7 @@
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
     text-decoration: none;
+    font-weight: lighter;
     list-style: none;
 }
 
