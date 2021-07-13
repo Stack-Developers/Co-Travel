@@ -122,3 +122,6 @@ YOU HAVE TO BE EITHER VACCINATED OR PROVIDE A PCR TEST IN THE LAST 72 HOURS `;
 // for (let cardParagraph in cardParagraphs) {
 // 	lineClamp(cardParagraphs[cardParagraph], 9);
 // }
+
+//////////malak add///////////////////
+AOS.init();
