@@ -40,7 +40,7 @@
 #qaisInfo li,
 #samInfo li {
     position: static;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Overpass', sans-serif;
     font-weight: bolder;
     -moz-transform: scale(-1, 1);

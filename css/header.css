@@ -18,11 +18,12 @@ header.hide {
 }
 
 .logo {
-    z-index: 100;
     position: absolute;
     right: 3%;
-    width: 85px;
-    height: 85px;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+
 }
 
 .navbar {
@@ -54,3 +55,6 @@ header.hide {
     font-weight: 900;
     /* margin: 20%; */
 }
+
+
+    
