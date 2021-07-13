@@ -153,5 +153,5 @@ let randomfeedsec=document.getElementById('randomfeedsec')
       h4.textContent = `___ ${Feedback.Info[i].name} `
 
     }, 7300);
-
+	AOS.init();
      //  marwaaaaaaaaaan worke end  
