@@ -127,17 +127,31 @@ let i=random()
 let randomfeedsec=document.getElementById('randomfeedsec')
     let notrandom=document.getElementById('randomparagraph')
     randomfeedsec.appendChild(randomparagraph)
-    randomparagraph.textContent= `“${Feedback.Info[i].message}“ ___ ${Feedback.Info[i].name} `
+    randomparagraph.textContent= `“${Feedback.Info[i].message}“  `
+	
+
+      let h5 = document.createElement('h4')
+      h5.setAttribute("id", "h4");
+      randomfeedsec.appendChild(h5)
+      h5.textContent = `___ ${Feedback.Info[i].name} `
+
+
             setInterval(function(){ 
               let notrandom=document.getElementById('randomparagraph')
+			  let h5=document.getElementById('h4')
               notrandom.remove()
+			  h5.remove()
               let randomfeedsec=document.getElementById('randomfeedsec')
               let randomparagraph=document.createElement('p')
               randomparagraph.setAttribute("id", "randomparagraph");
               randomfeedsec.appendChild(randomparagraph)
               i=random()
-      randomparagraph.textContent= `“${Feedback.Info[i].message}“ ___ ${Feedback.Info[i].name} `
-
+      randomparagraph.textContent= `“${Feedback.Info[i].message}“  `
+	  let h4 = document.createElement('h4')
+      h4.setAttribute("id", "h4");
+      randomfeedsec.appendChild(h4)
+      h4.textContent = `___ ${Feedback.Info[i].name} `
 
     }, 7300);
+
      //  marwaaaaaaaaaan worke end  

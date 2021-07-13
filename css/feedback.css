@@ -248,7 +248,7 @@ p {
 
 
 /* marwaaaaaaaaaaaaaaaaaaan css */
-
+/* css for random selector feedbackpage */
 #randomfeedsec {
   position: absolute;
   bottom: 20%;
@@ -256,6 +256,8 @@ p {
   color: rgb(255, 253, 247);
   background-color: rgba(168, 165, 159, 0.473);
   border-top-left-radius: 25px;border-bottom-right-radius: 25px;border:solid 1px black;
+  width: 500px;
+  height: 400px;
 }
 
 #randomparagraph {
@@ -264,14 +266,13 @@ p {
   padding-top: 50px;
   font-size: 30px;
   text-align:start;
-  height: 140px;
+
   text-overflow: initial;
-  width: 500px;
+  
   text-align: justify;
   text-align: center;  
-  margin-left: 40px;
-  white-space: pre;
-  margin-bottom: 55px;
+  
+  
 }
 
 @keyframes transitioninr {
@@ -283,11 +284,59 @@ p {
   }
 }
 
+#h4 {
+  animation: transitioninr .7s;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+  text-align:start;
+  text-overflow: initial;
+  text-align: justify;
+  text-align: center; 
+}
+
+@keyframes transitioninr {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 100%;
+  }
+}
+
+/* end cssssssssssssssssss for random selector for feedback page */
 
 
 
+/* fooooooooooooooooooooooooooooor rendering feedback on the home page */
 
+#mainsec{position: relative; width: 60%;margin: auto;
+   ;text-align: center;font-size: xx-large;padding-top: 80px;}
 
+  #feedarrows{text-align: center;font-size: xx-large;margin: 50px;box-shadow: 10px 10px 5px grey; border-radius:15px ;padding-top: 50px;
+ background-color:rgba(241, 240, 235, 0.897)}
 
+  
+  #feedarrowr{ animation: transitioninr .9s ;text-align: center;color:  rgb(75, 46, 9); padding: 20px;;word-break: break-all;padding-bottom: 120px;width: 65%;margin: auto;font-size: xx-large;font-weight: bolder;}
+  @keyframes transitioninr {
+    from {opacity: 0; transform: translateX(-50%);}
+    to {opacity: 100%; transform: translateX(0px);}
+  } 
+  #feedarrowl{ animation: transitioninl .9s ;text-align: center;color:  rgb(56, 44, 6); padding: 20px;;word-break: break-all;padding-bottom: 120px;width: 65%;margin: auto;font-size: xx-large;font-weight: bolder;}
+  @keyframes transitioninl {
+    from {opacity: 0; transform: translatex(50%);}
+    to {opacity: 100%; transform: translateX(0px);}
+  } 
+  #h3{font-size: large;}
+  
+  /* .pointar:hover{cursor: pointer;} */
+  
+  #right{opacity: 80%;right: 30%;bottom: 2%;transition: all .2s ease-in-out;transform:scale(1.2);position: absolute; right: 30%;}
+  #right:hover{opacity: 100%;transform:scale(1.1);}
+  #right:active{opacity: 100%;transform:scale(1)}
+  
+  #left{opacity: 80%;left:30%;bottom: 2%;transition: all .2s ease-in-out;transform:scale(1.2);position: absolute; right: 60%;}
+  #left:hover{opacity: 100%;transform:scale(1.1);}
+  #left:active{opacity: 100%;transform:scale(1)}
 
 
