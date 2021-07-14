@@ -50,7 +50,7 @@ function loadData() {
 
 loadData();
 
-const Ticket = document.getElementById("ticket");
+const Ticket = document.getElementById("ticketa");
 
 function renderTicket() {
   Ticket.textContent = '';
