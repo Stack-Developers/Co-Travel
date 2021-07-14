@@ -17,7 +17,7 @@
     width: 380px;
     height: 200px;
     display: inline-block;
-    margin: 90px 0px 20px 150px;
+    margin: 5% 0px 3% 11%;
 }
 
 #jehadPhoto,
@@ -27,7 +27,6 @@
 #qaisPhoto,
 #samPhoto {
     position: absolute;
-    left: 100px;
     width: 220px;
     height: 220px;
     border-radius: 15px;
