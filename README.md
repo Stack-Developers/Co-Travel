@@ -1,7 +1,7 @@
 # App Name : Co-Travel
 
 # Collaborators:
-* Jehad Abu Awwad
+* Jad Abu Awwad
 * Qais Al-Shorman
 * Faisal Kushha
 * Sam Al-Haj
